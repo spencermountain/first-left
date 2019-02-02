@@ -6,38 +6,59 @@
   <meta id="testViewport" name="viewport" content="initial-scale=1,width=800">
   <title></title>
   <link href="./assets/spencer.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Domine|Jacques+Francois|Noto+Serif+SC" rel="stylesheet">
+  <style>
+    .domine{
+      font-family: 'Domine', serif;
+    }
+    .mandarin {
+      font-family: 'Noto Serif SC', cursive;
+    }
+    body{
+      font-family: 'Jacques Francois', serif;
+    }
+  </style>
 </head>
 
 <body class="body">
   <!-- hero -->
 <div class="stage">
-  <div class="fit">Nothing<br/>
+  <div class="fit relative" >
+    Nothing<br/>
     helps
+    <span class=" w3 f7 orange" style="top:17rem; left:8rem; z-index:3;">~</span>
   </div>
-  <!--  dancer-->
-  <div class="row h8">
-    <div class="outline grow75"></div>
-    <div class="outline grow25 f3">our<br/>brains</div>
-  </div>
-  <!-- title -->
-  <div class="row-middle h8">
-    <div class="w3 orange">~</div>
-    <div class="f6 outline">first left</div>
-    <div class="w3 red">~</div>
-  </div>
-  <!-- sales-pitch -->
-  <div class="">will make sofware anyways</div>
+  <div class="maxw12">
+    <!--  dancer-->
+    <div class="row h8">
+      <div class="outline grow75"></div>
+      <div class="grow25 brown f4 helvetica">our<br/>brains</div>
+    </div>
+    <!-- title -->
+    <div class="row-middle h8">
+      <div class="w3 f3 orange">~</div>
+      <div class="f6 p3">first left</div>
+      <div class="w3 f4 red">~</div>
+    </div>
+    <!-- sales-pitch -->
+    <div class="row-right f2 domine" style="letter-spacing: 1.1rem;">makes software anyways</div>
 
-  <!-- chinese -->
-  <div class="m2 m2 grey f2">
-    大脑是一种难以组织和维护的海绵，这就是我们每天必须建立和使用计算机的原因
-  </div>
+    <!-- chinese -->
+    <div class="m2 m2 fuscia f2 i m4 mandarin" title="The brain is a sponge that is difficult to organize and maintain, and this is why we must build and use computers every day">
+      大脑是种难以组织和维护的海绵这就是我们每天必须建立和使用计算机的原因
+    </div>
 
-  <!-- email -->
-  <div class="gbgreygreen row">
-    <div class="yellow">Toronto, Canada</div>
-    <div class="f2">hi@firstleft.co</div>
+    <!-- email -->
+    <div class="blue domine f2 row-right">Toronto, Canada</div>
+    <div class="row">
+      <div class="grow75">
+        <div class="bgblue shadow row rect6 p5 rounded"></div>
+        <div class="bgred shadow row rect3 p5 rounded"></div>
+      </div>
+      <div class="lighter f3 grow25"></div>
+    </div>
   </div>
+  <a class="brown f2 link domine" style="text-decoration:none;" href="mailto:hi@firstleft.co">hi@firstleft.co</a>
 </div>
 
   <!-- script -->
